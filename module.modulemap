@@ -1,0 +1,5 @@
+module CHiredis [system] {
+    header "/usr/include/hiredis/hiredis.h"
+    link "hiredis"
+    export *
+}
